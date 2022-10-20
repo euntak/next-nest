@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "./"
+    },
+    {
+      "path": "packages/front"
+    },
+    {
+      "path": "packages/nest"
+    },
+    {
+      "path": "packages/common"
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/.pnp.*": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "typescript\\.yarn\\sdks\\typescript\\lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "typescript.preferences.quoteStyle": "single",
+    "eslint.nodePath": "typescript\\.yarn\\sdks",
+    "prettier.prettierPath": "typescript\\.yarn\\sdks\\prettier\\index.js"
+  }
+}
